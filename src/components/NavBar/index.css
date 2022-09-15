@@ -1,1 +1,27 @@
-/* Write your code here. */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 3rem;
+  height: 20%;
+  background: transparent;
+}
+
+.emoji-game-brand-img {
+  height: 4rem;
+  width: 10rem;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-score,
+.top-score {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-right: 1.5rem;
+}
