@@ -1,1 +1,87 @@
-/* Write your code here. */
+.game-outcome-card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff33;
+  border: 0.1rem solid #ffffff33;
+  border-radius: 0.8rem;
+}
+
+.game-outcome-card-img {
+  height: 50%;
+  width: 100%;
+}
+
+.game-outcome-card-content {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-outcome-text {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.game-best-score-text {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.game-score {
+  color: #6a59ff;
+  font-size: 2rem;
+}
+
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .game-outcome-card {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .game-outcome-card-img {
+    width: 50%;
+  }
+
+  .game-outcome-card-content {
+    width: 50%;
+  }
+
+  .game-outcome-card-img,
+  .game-outcome-card-content {
+    height: 100%;
+  }
+
+  .game-outcome-text {
+    font-size: 2rem;
+  }
+
+  .game-best-score-text {
+    font-size: 1rem;
+  }
+
+  .game-score {
+    font-size: 2rem;
+  }
+
+  .play-again-button {
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+  }
+}
