@@ -13,6 +13,13 @@
   cursor: pointer;
 }
 
+.emoji-card-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
 .emoji-card-img {
   height: 4rem;
   width: 4rem;
