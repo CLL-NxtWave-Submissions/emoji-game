@@ -12,7 +12,7 @@ const WinOrLoseCard = props => {
             ? 'https://assets.ccbp.in/frontend/react-js/won-game-img.png'
             : 'https://assets.ccbp.in/frontend/react-js/lose-game-img.png'
         }
-        alt="Game Outcome"
+        alt="win or lose"
       />
       <div className="game-outcome-card-content">
         <h1 className="game-outcome-text">
