@@ -19,8 +19,7 @@
   align-items: center;
 }
 
-.current-score,
-.top-score {
+.score-text {
   font-size: 2rem;
   color: #ffffff;
   margin-right: 1.5rem;
