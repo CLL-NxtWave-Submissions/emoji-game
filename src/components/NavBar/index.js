@@ -5,17 +5,23 @@ const NavBar = props => {
 
   return (
     <nav className="navbar-container">
-      <img
-        className="emoji-game-brand-img"
-        src="https://assets.ccbp.in/frontend/react-js/game-logo-img.png"
-        alt="emoji logo"
-      />
-      {isGameOn && (
-        <div className="score-container">
-          <p className="score-text">Score: {score}</p>
-          <p className="score-text">Top Score: {topScore}</p>
-        </div>
-      )}
+      <div className="brand-container">
+        <img
+          className="emoji-game-brand-img"
+          src="https://assets.ccbp.in/frontend/react-js/game-logo-img.png"
+          alt="emoji logo"
+        />
+        <p className="navbar-text">Emoji Game</p>
+      </div>
+
+      <div className="score-container">
+        {isGameOn && (
+          <>
+            <p className="navbar-text score-text">Score: {score}</p>
+            <p className="navbar-text score-text">Top Score: {topScore}</p>
+          </>
+        )}
+      </div>
     </nav>
   )
 }
