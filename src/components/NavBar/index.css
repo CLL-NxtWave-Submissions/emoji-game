@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   padding: 1.5rem 3rem;
-  height: 15vh;
+  height: 10vh;
   background-color: #ffffff33;
 }
 
@@ -14,15 +14,15 @@
 }
 
 .emoji-game-brand-img {
-  height: 4rem;
-  width: 4rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .navbar-text {
-  font-size: 2rem;
+  font-size: 1.1rem;
   color: #ffffff;
-  margin-right: 1.5rem;
   font-weight: 550;
+  margin-right: 1.5rem;
 }
 
 .score-container {
@@ -33,4 +33,21 @@
 
 .score-text {
   font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .navbar-container {
+    padding: 1.5rem 3rem;
+    height: 15vh;
+  }
+
+  .emoji-game-brand-img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .navbar-text {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+  }
 }
