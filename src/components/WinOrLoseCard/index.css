@@ -88,6 +88,7 @@
 
   .game-outcome-text {
     font-size: 5rem;
+    font-weight: 500;
   }
 
   .game-best-score-text {
