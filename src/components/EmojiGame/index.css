@@ -11,8 +11,8 @@
 
 .gaming-area {
   height: 80%;
-  width: 70%;
-  padding: 4rem;
+  width: 100%;
+  padding: 4rem 2rem;
   margin: 0;
   background: transparent;
 }
@@ -24,4 +24,12 @@
   flex-wrap: wrap;
   list-style-type: none;
   padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .gaming-area {
+    height: 80%;
+    width: 70%;
+    padding: 4rem;
+  }
 }

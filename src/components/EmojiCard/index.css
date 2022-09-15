@@ -8,14 +8,14 @@
   padding: 2rem;
   margin-right: 0.5rem;
   margin-bottom: 1rem;
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
   cursor: pointer;
 }
 
 .emoji-card-img {
-  height: 3rem;
-  width: 3rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 @media (min-width: 768px) {
